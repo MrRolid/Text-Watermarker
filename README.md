@@ -154,6 +154,14 @@ If you need the other direction, detecting and stripping these carriers rather
 than adding them, pair this with a sanitizer that decodes the same three
 encodings. Link your sanitizer repository here.
 
+## The other direction
+
+This project only adds carriers. If you need to *remove* them, its companion
+does the inverse: [LLM-Sanitizer](https://github.com/MrRolid/LLM-Sanitizer)
+detects and strips the same three encodings this tool embeds, decoding any
+hidden payload before it deletes it.
+
+
 ## License
 
 MIT. See [LICENSE](LICENSE).
